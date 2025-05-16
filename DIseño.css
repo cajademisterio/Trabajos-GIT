@@ -1,0 +1,21 @@
+.cabeza{
+    background-color: chocolate;
+}
+h1{
+    font-family: comic sans ms;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+button:hover{ /*Poner un id al codigo*/
+    border-radius: 25px;
+    background-color: rgba(87, 137, 180, 0.74);
+    color: rgba(0, 0, 0, 0.74);
+    font-family: comic sans ms;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.4s;
+} /*Terminar*/

@@ -1,6 +1,6 @@
 .cabeza{ /*Es el header*/
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start ;
     padding-left: 0;
     flex-direction: column;
     margin-top: 20px;
@@ -13,14 +13,24 @@ a{
     text-decoration: none;
     color: black;
 }
-.tienda:hover{ /*Es el Boton para volver a la pagina principal*/
-    border-radius: 25px;
-    background-color: rgba(87, 137, 180, 0.74);
+.tienda{ /*Es el Boton para volver a la pagina principal*/
+    border-radius: 15px;
     color: rgba(0, 0, 0, 0.74);
     font-family: comic sans ms;
-    font-size: 15px;
+    font-size: 20px;
     padding: 2px;
     margin: 2px;
+    transition: 0.4s;
+    
+}
+.tienda:hover{
+    border-radius: 25px;
+    background-color: rgba(170, 215, 255, 0.74);
+    color: rgba(0, 0, 0, 0.74);
+    font-family: comic sans ms;
+    font-size: 25px;
+    padding: 4px;
+    margin: 4px;
     transition: 0.4s;
 }
 hr{
@@ -32,18 +42,46 @@ hr{
 .kiosko{ /*Es el boton de la tienda*/
     padding: 20px;
     margin: 20px;
+    transition: 0.5s;
+}
+.kiosko:hover{
+    background-color: rgba(170, 215, 255, 0.74);
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px;
+    transition: 0.4s;
 }
 .k{ /*Imagen*/
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 200px;
+    height: 300px;
 }
 .b{ 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 200px;
+    height: 300px;
+}
+.buffet{
+    padding: 20px;
+    margin: 20px;
+    transition: 0.5s;
+}
+.buffet:hover{
+    background-color: rgba(170, 215, 255, 0.74);
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px;
+    transition: 0.4s;
+}
+.contenedor{
+    height: 50vh;
+    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

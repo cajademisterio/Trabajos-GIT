@@ -15,7 +15,7 @@ a{
 }
 .tienda{ /*Es el Boton para volver a la pagina principal*/
     border-radius: 15px;
-    color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(255, 177, 40, 0.92);
     font-family: comic sans ms;
     font-size: 20px;
     padding: 2px;
@@ -25,7 +25,7 @@ a{
 }
 .tienda:hover{
     border-radius: 25px;
-    background-color: rgba(170, 215, 255, 0.74);
+    background-color: rgba(255, 242, 0, 1);
     color: rgba(0, 0, 0, 0.74);
     font-family: comic sans ms;
     font-size: 25px;
@@ -39,13 +39,14 @@ hr{
     background-color: black;
     border: none;   
 }
-.kiosko{ /*Es el boton de la tienda*/
+.kiosco{ /*Es el boton de la tienda*/
     padding: 20px;
     margin: 20px;
     transition: 0.5s;
+	background-color: rgba(159, 159, 159, 1);
 }
-.kiosko:hover{
-    background-color: rgba(170, 215, 255, 0.74);
+.kiosco:hover{
+    background-color: rgba(255, 255, 255, 1);
     font-size: 30px;
     padding: 30px;
     margin: 30px;
@@ -69,9 +70,10 @@ hr{
     padding: 20px;
     margin: 20px;
     transition: 0.5s;
+	background-color: rgba(159, 159, 159, 1);
 }
 .buffet:hover{
-    background-color: rgba(170, 215, 255, 0.74);
+    background-color: rgba(255, 255, 255, 1);
     font-size: 30px;
     padding: 30px;
     margin: 30px;
@@ -80,8 +82,22 @@ hr{
 .contenedor{
     height: 50vh;
     margin: 5%;
-
     display: flex;
     justify-content: center;
     align-items: center;
+}
+body{ /*es para poner el fondo*/
+	background-image: url("pizarra.jpg");
+	background-size: cover; /*esto sirve para que la imagen se ponga como fondo*/
+	background-repeat: no-repeat;
+}
+button{
+	background-color: rgba(0, 0, 0, 1);
+	
+}
+p{
+	color: rgba(255, 255, 255, 1);
+}
+button:hover{
+	background-color: rgba(0, 38, 215, 1);
 }

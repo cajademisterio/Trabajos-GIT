@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DIseño.css">
+    <title>Buffet</title>
+    </head>
+        <body>
+                <header class="cabeza">
+                    <button class="tienda"> 
+                        <a href="Trabajo Practico.html">Tienda De Mario</a>
+                    </button>
+                </header>
+            <hr>
+            <div>
+                <button onclick="sumar(1500)">
+                    <img src="Buffet-i/pancho.avif" class="ImagesB">    
+                    <p>Pancho</p>
+                    <p>$1500</p>
+                </button>
+                <button onclick="sumar(1200)">
+                    <img src="Buffet-i/pizza.jpeg" class="ImagesB">
+                    <p>Porcion de pizza</p>
+                    <p>$1200</p>
+                </button>
+                <button onclick="sumar(1000)">
+                    <img src="Buffet-i/coca.jpg" class="ImagesB">
+                    <p>Coca</p>
+                    <p>$1000</p>
+                </button>
+            </div>
+            <p id="resultado"></p>
+                <div class="Contador">
+                    <button class="Pagar">
+                        <a href="Pago.html">Pagar</a>
+                    </button>
+                </div>
+            </div>
+
+            <script>
+            let total = 0;
+
+            function sumar(valor) {
+                total += valor;
+                document.getElementById('resultado').textContent = "Total a pagar: $" + total;
+            }
+            </script>
+
+        </body>
+
+</html>

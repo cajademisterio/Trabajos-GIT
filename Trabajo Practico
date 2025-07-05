@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DIseño.css">
+    <title>Tienda De Mario</title>
+    </head>
+        <body>
+                <header class="cabeza">
+                    <button class="tienda"> 
+                        <a href="Trabajo Practico.html">Tienda De Mario</a>
+                    </button>
+                </header>
+            <hr>   
+            <div class="contenedor">
+            <button class="kiosco">
+                <a href="kiosko.html">
+                    <img src="k.png" class="k">
+                    <h1>Kiosko</h1>
+                </a>
+            </button>
+            <button class="buffet">
+                <a href="buffet.html">
+                    <img src="b.png" class="b">    
+                    <h1>Buffet</h1>
+                </a>
+            </button>
+            </div>
+        </body>
+
+</html>
